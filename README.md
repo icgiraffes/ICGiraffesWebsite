@@ -1,0 +1,2 @@
+# ICGiraffes
+Static NFT page

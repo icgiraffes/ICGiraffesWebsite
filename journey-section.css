@@ -1,0 +1,46 @@
+#journey-stories {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.journey-stories__item__image {
+	border: 2px solid #000000;
+	border-radius: 380px;
+	width: clamp(200px, 40vw, 300px);
+}
+
+.journey-stories__item__title {
+	font-family: 'Share', cursive;
+	text-align: center;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+@media only screen and (min-width: 1020px) {
+	.journey-stories__item {
+		display: grid;
+		grid-template-columns: 30% 1fr;
+		padding-right: 0;
+		column-gap: 2rem;
+		row-gap: 0.5rem;
+	}
+
+	.journey-stories__item__image {
+		grid-row-start: 1;
+		grid-row-end: span 2;
+		width: 90%;
+		margin: 0 auto;
+		max-width: 250px;
+	}
+
+	.journey-stories__item__title {
+		text-align: left;
+	}
+
+	#journey-stories {
+		gap: 5rem;
+	}
+}

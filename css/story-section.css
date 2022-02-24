@@ -1,0 +1,39 @@
+#story-section {
+	position: relative;
+	min-height: 50vh;
+	background: url('./../assets/backgrounds/universe-background.jpg');
+	padding: 2rem 0;
+}
+
+.story-section__card {
+	padding: 2rem;
+	min-height: 200px;
+	height: auto;
+	text-align: justify;
+}
+
+.story-section__card > h1 {
+	color: white;
+	text-align: center;
+}
+
+#typedtext {
+	font-family: 'Share', cursive;
+	font-size: clamp(18px, 4vw, 30px);
+	line-height: clamp(24px, 5vw, 45px);
+	color: white;
+}
+
+@media only screen and (min-width: 1020px) {
+	.story-section__card {
+		border-radius: 10px;
+		width: 70%;
+		margin: 0 auto;
+		border: 4px solid #ffffff;
+		color: #ffffff;
+		background: rgba(0, 0, 0, 0.3);
+		box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px);
+	}
+}

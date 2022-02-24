@@ -4,11 +4,10 @@ body {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
-	gap: 5vh;
 }
 
 h1 {
-	font-size: clamp(82px, 20vw, 150px);
+	font-size: clamp(40px, 15vw, 150px);
 }
 
 h2 {
@@ -25,6 +24,10 @@ h2 {
 
 p {
 	margin: 0;
+}
+
+a {
+	text-decoration: none;
 }
 
 .center-items {
@@ -47,9 +50,9 @@ section {
 }
 
 .section-header {
-	background: #ccc2ad;
+	background: #000000;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	padding: 1rem;
+	padding: 3rem 1rem;
 }
 
 .section-header > h2 {
@@ -57,6 +60,7 @@ section {
 	width: 70%;
 	margin: 0 auto;
 	max-width: 700px;
+	color: white;
 }
 
 .section-content {
@@ -74,25 +78,7 @@ section {
 }
 
 @media only screen and (min-width: 1020px) {
-	body {
-		gap: 20vh;
-	}
-
-	.section {
-		margin: 0 10%;
-	}
-
 	.section-header {
-		border: 5px solid #000000;
 		box-sizing: border-box;
-		box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
-		border-radius: 40px 40px 0px 0px;
-	}
-
-	.section-content {
-		border: 3px solid #000000;
-		box-sizing: border-box;
-		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-		border-radius: 0px 0px 40px 40px;
 	}
 }

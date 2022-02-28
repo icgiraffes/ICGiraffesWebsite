@@ -40,43 +40,43 @@
 }
 
 #montanier {
-	background-image: url('./../assets/backgrounds/hikeman-background.jpeg');
+	background-image: url('./../assets/backgrounds/hikeman-background.webp');
 }
 
 #astronaut {
-	background-image: url('./../assets/backgrounds/space-station-background.jpg');
+	background-image: url('./../assets/backgrounds/space-station-background.webp');
 }
 
 #ceo {
-	background-image: url('./../assets/backgrounds/ceo-background.jpeg');
+	background-image: url('./../assets/backgrounds/ceo-background.webp');
 }
 
 #scuba {
-	background-image: url('./../assets/backgrounds/scuba-background.jpeg');
+	background-image: url('./../assets/backgrounds/scuba-background.webp');
 }
 
 #judge {
-	background-image: url('./../assets/backgrounds/court-house-background.jpg');
+	background-image: url('./../assets/backgrounds/court-house-background.webp');
 }
 
 #butcher {
-	background-image: url('./../assets/backgrounds/butchery-background.jpg');
+	background-image: url('./../assets/backgrounds/butchery-background.webp');
 }
 
 #doctor {
-	background-image: url('./../assets/backgrounds/hospital-background.jpg');
+	background-image: url('./../assets/backgrounds/hospital-background.webp');
 }
 
 #constructor {
-	background-image: url('./../assets/backgrounds/construction-site-background.jpg');
+	background-image: url('./../assets/backgrounds/construction-site-background.webp');
 }
 
 #fireman {
-	background-image: url('./../assets/backgrounds/fire-station-background.jpg');
+	background-image: url('./../assets/backgrounds/fire-station-background.webp');
 }
 
 #police {
-	background-image: url('./../assets/backgrounds/police-station-background.jpg');
+	background-image: url('./../assets/backgrounds/police-station-background.webp');
 }
 
 @media only screen and (min-width: 1020px) {

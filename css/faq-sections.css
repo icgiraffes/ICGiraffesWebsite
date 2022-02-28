@@ -1,0 +1,43 @@
+#faq-section {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.faq-item {
+	user-select: none;
+	border: 5px solid black;
+	padding: 2rem;
+	border-radius: 20px;
+}
+
+.faq-item__header {
+	font-family: 'Share', cursive;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.faq-item__content {
+	margin-top: 2rem;
+	color: black !important;
+}
+
+details > summary span.icon {
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s;
+	margin-left: auto;
+}
+
+details[open] summary span.icon {
+	transform: rotate(180deg);
+}
+
+summary {
+	display: flex;
+	cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}

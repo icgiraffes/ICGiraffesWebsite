@@ -1,7 +1,7 @@
 #story-section {
 	position: relative;
 	min-height: 50vh;
-	background: url('./../assets/backgrounds/universe-background.jpg');
+	background: url('./../assets/backgrounds/universe-background.webp');
 	padding: 2rem 0;
 }
 

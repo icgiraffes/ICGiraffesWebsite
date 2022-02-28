@@ -8,20 +8,14 @@
         }
     }
      
-
     function typewriter()
     {
-       
-          
-              if(i  < txt.length){
-                document.getElementById("typedtext").innerHTML += txt.charAt(i);
-                i++;
-                setTimeout(typewriter, speed);
-                window.removeEventListener("scroll",scrollStarted)
-              }
-          
-        
+        if(i  < txt.length){
+        document.getElementById("typedtext").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typewriter, speed);
+        window.removeEventListener("scroll",scrollStarted)
+        }
     }
 
-    
     window.addEventListener('scroll', scrollStarted)

@@ -1,5 +1,5 @@
 #breeding-section > .section-content {
-	background-image: url('./../assets//backgrounds/breeding-background.jpeg');
+	background-image: url('./../assets//backgrounds/breeding-background.webp');
 	background-size: auto 100%;
 	background-position: center center;
 	display: flex;
@@ -32,11 +32,28 @@
 	cursor: not-allowed;
 }
 
+#breed-button:focus {
+	background: #bd5050;
+	cursor: not-allowed;
+}
+
 #breed-button:hover > b {
 	display: none;
 }
 
+#breed-button:focus > b {
+	display: none;
+}
+
 #breed-button:hover::before {
+	font-family: 'Share';
+	font-weight: bold;
+	font-size: 48px;
+	color: #ffffff;
+	content: 'Coming soon';
+}
+
+#breed-button:focus::before {
 	font-family: 'Share';
 	font-weight: bold;
 	font-size: 48px;

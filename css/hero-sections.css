@@ -5,13 +5,12 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-	min-height: 90vh;
-	padding-top: 2rem;
+	padding-top: 10vh;
 	gap: 2rem;
 }
 
 .hero-background-1 {
-	background-image: url('./../assets//backgrounds/hero-background-1.jpeg');
+	background-image: url('./../assets//backgrounds/hero-background-1.webp');
 }
 .hero-background-1::after {
 	display: block;
@@ -27,7 +26,7 @@
 }
 
 .hero-background-2 {
-	background-image: url('./../assets//backgrounds/hero-background-2.jpeg');
+	background-image: url('./../assets//backgrounds/hero-background-2.webp');
 }
 .hero-background-2::after {
 	display: block;
@@ -43,7 +42,7 @@
 }
 
 .hero-background-3 {
-	background-image: url('./../assets//backgrounds/hero-background-3.jpeg');
+	background-image: url('./../assets//backgrounds/hero-background-3.webp');
 }
 .hero-background-3::after {
 	display: block;

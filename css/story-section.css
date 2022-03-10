@@ -2,16 +2,9 @@
 	position: relative;
 	min-height: 50vh;
 	background: url('./../assets/backgrounds/universe-background.webp');
+	background-size: auto 100%;
+	background-position: top left;
 }
-
-/* #story-section::after {
-	display: block;
-	position: relative;
-	background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #000000 100%);
-	height: 200px;
-	width: 100%;
-	content: '';
-} */
 
 .story-section__card {
 	padding: 2rem;

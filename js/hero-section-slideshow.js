@@ -1,4 +1,4 @@
-let counter = 1;
+let counter = 2;
 const backgroundImages=[{styleCLass:"hero-background-1",waveClolor:"#841508"},
         {styleCLass:"hero-background-2", waveClolor: "#fbeda4"},
         {styleCLass: "hero-background-3", waveClolor:"#1a2e69"},

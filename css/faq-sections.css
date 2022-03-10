@@ -14,12 +14,24 @@
 .faq-item__header {
 	font-family: 'Share', cursive;
 	font-weight: bold;
-	font-size: 32px;
+}
+
+.faq-item__header > b {
+	font-size: clamp(14px, 5vw, 30px);
+}
+
+.faq-item__header > .icon > img {
+	width: 25px;
+	height: 25px;
 }
 
 .faq-item__content {
 	margin-top: 2rem;
 	color: black !important;
+}
+
+details > summary {
+	outline: none;
 }
 
 details > summary span.icon {

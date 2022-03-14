@@ -12,6 +12,7 @@
 .hero-background-1 {
 	background-image: url('./../assets//backgrounds/hero-background-1.webp');
 }
+
 .hero-background-1::after {
 	display: block;
 	position: relative;
@@ -28,6 +29,7 @@
 .hero-background-2 {
 	background-image: url('./../assets//backgrounds/hero-background-2.webp');
 }
+
 .hero-background-2::after {
 	display: block;
 	position: relative;
@@ -44,6 +46,7 @@
 .hero-background-3 {
 	background-image: url('./../assets//backgrounds/hero-background-3.webp');
 }
+
 .hero-background-3::after {
 	display: block;
 	position: relative;

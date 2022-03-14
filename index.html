@@ -44,7 +44,7 @@
         <img class="rounded-image" id="profile-pic" src="assets/profile.webp" alt="profile" />
         <h1>ICGIRAFFES</h1>
         <div id="social-links" class="center-items">
-            <button id="mint">MINT</button>
+            <button id="mint"><span>MINT</span></button>
             <a href="https://twitter.com/ICGiraffes" target="_blank" rel="noopener noreferrer"><button
                     class="social-button"><img class="social-button__icon" src="./assets/icons/twitter.svg"
                         alt="Twitter">Follow us on Twitter</button></a>
@@ -61,8 +61,8 @@
     <!-- START INTRODUCTION -->
     <section id="story-section" class="center-items" style="margin-top:-10px;">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="hero-wave"
-            style="display: block; margin-bottom:-20px">
-            <path fill="#841508" fill-opacity="1"
+            style="display: inline-block; margin-bottom:-20px; margin-top:-2px;">
+            <path fill="#841508" fill-opacity="1" position="absolute"
                 d="M0,128L48,106.7C96,85,192,43,288,69.3C384,96,480,192,576,192C672,192,768,96,864,53.3C960,11,1056,21,1152,32C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
             </path>
         </svg>
@@ -248,6 +248,16 @@
             <h2>FAQ</h2>
         </div>
         <div id="faq-section" class="section-content">
+            <details class="faq-item">
+                <summary class="faq-item__header">
+                    <b> When is the launch date? </b>
+                    <span class="icon"><img src="assets/icons/angle-down.svg"></span>
+                </summary>
+                <p class="section-content__text faq-item__content">
+                    23rd March on <a href="http://c3-protocol.cc" target="_blank"
+                        rel="noopener noreferrer">CCC_MarketPlace</a>
+                </p>
+            </details>
             <details class="faq-item">
                 <summary class="faq-item__header">
                     <b>What is the minting price? </b>

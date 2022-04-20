@@ -115,23 +115,3 @@
 	font-size: clamp(18px, 4vw, 30px);
 }
 
-#mint:hover {
-	background: #bd5050;
-	cursor: not-allowed;
-}
-
-#mint:focus {
-	background: #bd5050;
-	cursor: not-allowed;
-}
-
-#mint:hover > *,
-#mint:focus > * {
-	display: none;
-	outline: none;
-}
-
-#mint:hover::before,
-#mint:focus::before {
-	content: 'Coming on April 20';
-}
